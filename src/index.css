@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*background-color: black;*/
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'yhlqmdlg';
+  src: url(../fonts/Y.ttf);
+}
+
+h1{
+  padding: 2%;
+  font-family: 'yhlqmdlg';
+  font-size: 4rem;
+  color: rgb(47, 255, 0);
+  text-shadow: 2px 1px 2px red;
+}
+
+.container{
+  /*border: solid 2px black;*/
 }
